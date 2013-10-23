@@ -41,4 +41,12 @@ module ApplicationHelper
     else 'level_done'
     end
   end
+
+  def locale
+    current_user.try(:locale) || I18n.default_locale
+  end
+
+  def js_locale
+    locale.downcase.gsub('-', '_')
+  end
 end
