@@ -20,17 +20,20 @@
   english: "Arabic"
   native: "العربية"
   dir: 'rtl'
+  webfonts: false
 
 "az": "az-AZ"
 "az-AZ":
   english: "Azerbaijani"
   native: "Azərbaycan dili"
+  webfonts: false
 
 "bn": "bn-BD"
 "bn-BD":
   english: "Bengali"
   native: "বাংলা"
   debug: true
+  webfonts: false
 
 "ca": "ca-ES"
 "ca-ES":
@@ -59,6 +62,7 @@
 "el-GR":
   english: "Greek"
   native: "ελληνικά"
+  webfonts: false
 
 "en": "en-US"
 "en-US":
@@ -80,6 +84,7 @@
   english: "Persian"
   native: "فارسی"
   dir: 'rtl'
+  webfonts: false
 
 "fi": "fi-FI"
 "fi-FI":
@@ -103,12 +108,14 @@
   native: "עברית"
   debug: true
   dir: 'rtl'
+  webfonts: false
 
 "hi": "hi-IN"
 "hi-IN":
   english: "Hindi"
   native: "हिन्दी, हिंदी"
   debug: true
+  webfonts: false
 
 "hu": "hu-HU"
 "hu-HU":
@@ -135,23 +142,27 @@
   english: "Japanese"
   native: "日本語"
   debug: true
+  webfonts: false
 
 "ko": "ko-KR"
 "ko-KR":
   english: "Korean"
   native: "한국어"
+  webfonts: false
 
 "ms": "ms-MY"
 "ms-MY":
   english: "Malay"
   native: "بهاس ملايو"
   debug: true
+  webfonts: false
 
 "my": "my-MM"
 "my-MM":
   english: "Burmese"
   native: "ဗမာစာ"
   debug: true
+  webfonts: false
 
 "nl-NL":
   english: "Dutch"
@@ -187,6 +198,7 @@
 "ru-RU":
   english: "Russian"
   native: "русский язык"
+  webfonts: false
 
 "sq": "sq-AL"
 "sq-AL":
@@ -198,6 +210,7 @@
 "sr-SP":
   english: "Serbian"
   native: "српски језик"
+  webfonts: false
 
 "sv": 'sv-SE'
 "sv-SE":
@@ -209,12 +222,14 @@
   english: "Tamil"
   native: "தமிழ்"
   debug: true
+  webfonts: false
 
 "th": "th-TH"
 "th-TH":
   english: "Thai"
   native: "ไทย"
   debug: true
+  webfonts: false
 
 "tr": "tr-TR"
 "tr-TR":
@@ -225,6 +240,7 @@
 "uk-UA":
   english: "Ukrainian"
   native: "українська мова"
+  webfonts: false
 
 "ur": "ur-PK"
 "ur-PK":
@@ -232,6 +248,7 @@
   native: "اردو"
   debug: true
   dir: 'rtl'
+  webfonts: false
 
 "vi": "vi-VN"
 "vi-VN":
@@ -244,8 +261,10 @@
   english: "Chinese (Traditional)"
   native: "繁體字"
   debug: true
+  webfonts: false
 
 "zh": "zh-CN"
 "zh-CN":
   english: "Chinese (Simplified)"
   native: "简体字"
+  webfonts: false

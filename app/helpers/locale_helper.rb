@@ -14,6 +14,10 @@ module LocaleHelper
     Dashboard::Application::LOCALES[locale.to_s][:dir] || 'ltr'
   end
 
+  def serve_fonts?
+    Dashboard::Application::LOCALES[locale.to_s].fetch(:webfonts, true)
+  end
+
   # String representing the 2 letter language code.
   # Prefer full locale with region where possible.
   def language
